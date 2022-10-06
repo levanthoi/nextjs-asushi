@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "hotline": "0968 266 266",
+      "primary": true
+    },
+    {
+      "id": 2,
+      "hotline": "0439 745 945",
+      "primary": false
+    },
+    {
+      "id": 3,
+      "hotline": "0439 447 966",
+      "primary": false
+    }
+  ]

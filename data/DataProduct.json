@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Nộm sứa",
+      "nameJapan": "シュリンプと鮪のサラダ",
+      "price": 40000,
+      "img": "https://b.zmtcdn.com/data/pictures/9/19570539/d7670e70e86ebafdc82b9461eebf854e.jpg",
+      "des":"Mực sữa hay mực trứng tuy nhỏ nhưng lại rất ngon và bổ dưỡng. Đến đây ăn hải sản, bạn không thể không thưởng thức món mực sữa chiên nước mắm trứ danh này. Vị thơm ngọt của mực hòa với nước mắm chiên tạo nên hương vị đặc trưng vô cùng thơm ngon.",
+      "quantity" : 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bạch tuộc nướng",
+      "nameJapan": "シュリンプと鮪のサラダ",
+      "price": 75000,
+      "img": "https://b.zmtcdn.com/data/dish_photos/256/26af11a74ea045de9df8d93bf72af256.jpg",
+      "des":"Bánh xèo thì ở vùng nào cũng có nhưng bánh xèo ở đây lại mang một hương vị đặc trưng riêng, không thể nhầm lẫn với nơi nào khác. Món bánh với vỏ vàng giòn rụm, nhân tôm thịt bùi béo, thơm ngon, ăn kèm các loại rau sống thanh mát cùng chén nước chấm hấp dẫn. Đi cùng là không gian thoải mái, mát mẻ, nhân viên mau lẹ và nhiệt tình là điểm cộng khi bạn muốn thưởng thức món ngon này.",
+      "quantity" : 1,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sashimi cá hồi",
+      "nameJapan": "シュリンプと鮪のサラダ",
+      "price": 100000,
+      "img": "https://b.zmtcdn.com/data/pictures/7/18896837/9bfc04732beb60e473f1833848447d5f.jpg",
+      "des":"Được xem là “món ăn ruột” của Vũng Tàu, bánh bông lan trứng muối được rất nhiều người ưa chuộng và mua về làm quà. Chiếc bánh nhỏ xinh thơm lừng là sự kết hợp hài hòa giữa vị ngọt dịu của vỏ bánh, bông xốp của cốt bánh và vị mằn mặn, beo béo của trứng muối. Để thêm phần hấp dẫn, người ta còn rắc thêm chà bông hay phủ phô mai lên mặt bánh.",
+      "quantity" : 1,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "Thịt heo chiên",
+      "nameJapan": "シュリ鮪のサラダ",
+      "price": 50000,
+      "img": "https://b.zmtcdn.com/data/dish_photos/3b8/22f1f678027ae64255496270886723b8.jpg",
+      "des":"Quán nằm bên tay phải đường đi lên ngọn hải đăng nên lúc nào cũng đông khách. Với menu đa dạng, đủ món như cóc lắc, xoài lắc, trà tắc, trứng lòng đào chấm muối tiêu, bánh tráng trộn,… và đặc biệt là không thể thiếu món sữa chua thơm ngon, mịn màng, thanh mát ăn vào là đã thèm",
+      "quantity" : 1,
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "name": "Cháo thịt bằm khoai lang",
+      "nameJapan": "シュリンプと鮪のサラダ",
+      "price": 30000,
+      "img": "https://b.zmtcdn.com/data/dish_photos/d01/b428c38fa7bdc4bc2a40595000377d01.jpg",
+      "des": "Món ngon này được làm từ cá mai, một loài cá có quanh năm ở vùng biển. Yếu tố quyết định hương vị của món ăn phụ thuộc vào cách ướp gia vị và pha chế nước mắm chấm. Gỏi cá mai ăn kèm rau thơm, khế chua, chuối chát, cuốn bánh tráng không bị tanh mà lại rất ngọt thịt, dễ ăn.",
+      "quantity" : 1,
+      "categoryId": 5
+    },
+    {
+      "id": 6,
+      "name": "Mì xào thập cẩm",
+      "nameJapan": "シュリンプと鮪のサラダ",
+      "price": 30000,
+      "img": "https://b.zmtcdn.com/data/dish_photos/1d6/0d3e9dc9e380dc11155580c1c84011d6.jpg",
+      "des":"Cá viên chiên Ba Cu là một quán ăn ngon chuyên các món ăn vặt được giới trẻ ưa thích. Ngoài cá viên chiên, bạn có thể nhâm nhi đủ các món ăn vặt khác như hàu nướng phô mai, sữa tươi chiên, cơm chiên Dương Châu, gỏi xoài, phô mai que, chả cá trứng cút, thanh cua chiên giòn, gà viên chiên,…",
+      "quantity" : 1,
+      "categoryId": 6
+    },
+    {
+      "id": 7,
+      "url": "food-name-7",
+      "name": "Kobe Teppanyaki Nhật Bản",
+      "nameJapan": "シュと鮪のサラダ",
+      "price": 180000,
+      "img": "https://i.pinimg.com/originals/f9/9c/e1/f99ce11733d7aa4103c9d1d1e2f6be17.jpg",
+      "des":"“Bánh ướt dĩa chồng dĩa” sỡ dĩ có cái tên gọi như vậy là do người bán mỗi lần mang lên chỉ một cái, khi ăn xong thì xếp lên thành một chồng dĩa. Món bánh này cuốn kèm với heo quay, dưa muối, rau sống,… chấm thêm nước mắm chua cay mặn ngọt đủ vị, khiến bạn ăn mãi, ăn mãi không thể nào dừng lại được.",
+      "quantity" : 1,
+      "categoryId": 7
+    },
+    {
+      "id": 8,
+      "name": "Ốc om chuối",
+      "nameJapan": "シュリンプとラダ",
+      "price": 30000,
+      "img": "https://cdn.cdnparenting.com/articles/2020/02/27142028/GRILLED-CHEESE-SANDWICH.jpg",
+      "des":"Súp cua bán ở đây không chỉ đơn giản là súp cua mà còn có rất nhiều topping hấp dẫn như trứng vịt bắc thảo, trứng muối, óc heo. Món ăn còn độc đáo ở chỗ có bánh mì giòn rụm bên trên, ăn kèm với mắm ớt, tạo ra một tô súp cua thơm ngon, nóng hổi đầy tuyệt vời.",
+      "quantity" : 1,
+      "categoryId": 8
+    },
+    {
+      "id": 9,
+      "name": "Lẩu mắm",
+      "nameJapan": "シュ",
+      "price": 140000,
+      "img": "https://cdn.cdnparenting.com/articles/2020/02/27142028/GRILLED-CHEESE-SANDWICH.jpg",
+      "des":"Món lẩu cá đuối vừa ngon vừa rẻ xuất hiện trong hầu hết thực đơn của các nhà hàng, quán ăn hải sản. Nước lẩu được nêm nếm vừa miệng, đặc biệt những miếng cá đuối tươi ngon với lớp thịt trắng mềm có lẫn lớp sụn giòn sẽ là một trải nghiệm thú vị cho du khách khi đến đây. Một nồi lẩu có giá chỉ từ 130.000 – 200.000 đồng.",
+      "quantity" : 1,
+      "categoryId": 9
+    },
+    {
+      "id": 10,
+      "name": "Đậu rim mặn ngọt",
+      "nameJapan": "シュリンプと鮪のサラダ",
+      "price": 35000,
+      "img": "https://cookwithchandni.files.wordpress.com/2020/09/img_20200906_131242_765-1.jpg",
+      "des":"Quán cháo lòng cô Loan là địa chỉ quen thuộc với dân bản địa cũng như du khách mỗi khi đến thành phố biển làm việc và nghỉ dưỡng. Món cháo được nấu kỹ và thơm, phần lòng được chế biến sạch sẽ, không hôi. Chính vì vậy mà nơi đây mỗi buổi chiều mở cửa đều rất đông khách.",
+      "quantity" : 1,
+      "categoryId": 10
+    },
+    {
+      "id": 11,
+      "name": "Nộm gà hoa chuối",
+      "nameJapan": "シュのサラダ",
+      "price": 35000,
+      "img": "https://b.zmtcdn.com/data/pictures/9/92799/306f3388535e234369b230654a950498_o2_featured_v2.jpg",
+      "des":"Xôi lòng gà là món ăn sáng ở Vũng Tàu thu hút nhiều thực khách. Món xôi nóng, dẻo thơm, ăn cùng lòng gà chế biến vừa miệng. Ngoài xôi, quán cũng bán thêm bánh ướt lòng gà cũng rất ngon, đáng để bạn phải “note” vào sổ tay để thưởng thức khi có dịp đến đây.",
+      "quantity" : 1,
+      "categoryId": 1
+    },
+    {
+      "id": 12,
+      "name": "Nộm bò bóp thấu",
+      "nameJapan": "シサラダ",
+      "price": 15000,
+      "img": "https://b.zmtcdn.com/data/dish_photos/23f/b52e772431509815c12e91ae7886723f.png",
+      "des":"Trong quá trình khám phá văn hóa, ẩm thực tại đây, chẳng may bạn muốn ăn các món ăn mẹ nấu thì hãy đến với quán Cơm niêu Rau Tập Tàng. Quán có không gian bài trí theo phong cách của người Việt xưa với nguyên vật liệu xây dựng chủ yếu từ tre và nứa. Các món ăn thuần Việt của quán như thịt kho tiêu, khổ qua dồn thịt, cơm cháy kho quẹt,…sẽ mang lại hương vị cơm nhà cho du khách khi đến đây.",
+      "quantity" : 1,
+      "categoryId": 1
+    }
+  ]

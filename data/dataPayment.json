@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Họ và tên",
+      "field": "name",
+      "isImportant": true
+    },
+    {
+      "id": 2,
+      "name": "Số điện thoại",
+      "field": "phone",
+      "isImportant": true
+    },
+    {
+      "id": 3,
+      "name": "Email",
+      "field": "email",
+      "isImportant": true
+    },
+    {
+      "id": 4,
+      "name": "Địa chỉ",
+      "field": "address",
+      "isImportant": true
+    },
+    {
+      "id": 5,
+      "name": "Thành phố/Tỉnh",
+      "field": "city",
+      "isImportant": true
+    },
+    {
+      "id": 6,
+      "name": "Quận/Huyện/TX",
+      "field": "district",
+      "isImportant": true
+    },
+    {
+      "id": 7,
+      "name": "Ghi Chú",
+      "field": "note",
+      "isImportant": true
+    }
+  ]

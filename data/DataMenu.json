@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "name": "Trang chủ",
+    "nameJapan": "杉屋について",
+    "url": "/",
+    "children": null,
+    "parentId": null
+  },
+  {
+    "id": 2,
+    "name": "Giới thiệu",
+    "nameJapan": "杉屋について",
+    "url": "/about",
+    "children": null,
+    "parentId": null
+  },
+  {
+    "id": 3,
+    "name": "Thực đơn",
+    "nameJapan": "お品書き",
+    "url": "/product",
+    "children": [
+      {
+        "id": 20,
+        "name": "Khai vị",
+        "nameJapan": "アペタイザー",
+        "url": "/khai-vi-pc,5699",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 21,
+        "name": "Món nướng",
+        "nameJapan": "焼き",
+        "url": "/mon-nuong-pc,5700",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 22,
+        "name": "Sashimi, sushi",
+        "nameJapan": " 刺身 , 寿司",
+        "url": "/sashimi-sushi-pc,5703",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 23,
+        "name": "Món chiên",
+        "nameJapan": "揚げ",
+        "url": "/mon-chien-pc,5723",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 24,
+        "name": "Cơm, cháo",
+        "nameJapan": "米, ポリッジ",
+        "url": "/com-chao-pc,5724",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 25,
+        "name": "Món mì",
+        "nameJapan": "麺類",
+        "url": "/mon-mi-pc,5729",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 26,
+        "name": "Teppanyaki",
+        "nameJapan": "鉄板焼き",
+        "url": "/teppanyaki-pc,5725",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 27,
+        "name": "Món om",
+        "nameJapan": "煮る",
+        "url": "/mon-om-pc,5726",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 28,
+        "name": "Món lẩu",
+        "nameJapan": "鍋",
+        "url": "/mon-lau-pc,5727",
+        "children": null,
+        "parentId": 3
+      },
+      {
+        "id": 29,
+        "name": "Món đặc biệt",
+        "nameJapan": "?",
+        "url": "/mon-dac-biet-pc,5728",
+        "children": null,
+        "parentId": 3
+      }
+    ],
+    "parentId": null
+  },
+  {
+    "id": 4,
+    "name": "Khuyến mại",
+    "nameJapan": "プロモーション",
+    "url": "/promotion",
+    "children": null,
+    "parentId": null
+  },
+  {
+    "id": 5,
+    "name": "Voucher",
+    "nameJapan": "クーポン",
+    "url": "/voucher",
+    "children": null,
+    "parentId": null
+  },
+  {
+    "id": 6,
+    "name": "Đặt bàn",
+    "nameJapan": "貸し切り",
+    "url": "/book",
+    "children": null,
+    "parentId": null
+  },
+  {
+    "id": 7,
+    "name": "Tin tức",
+    "nameJapan": "ニュース",
+    "url": "/new",
+    "children": null,
+    "parentId": null
+  }
+]

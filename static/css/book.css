@@ -1,0 +1,17 @@
+.order-content-address4 {
+}
+
+.order-content-address4 .text-content {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.order-content-address4 .text-content a,
+.order-content-address4 .text-content p {
+  display: inline;
+  color: #381300;
+}
+
+.order-content-address4 .text-content a:hover {
+  color: #8c6239;
+}

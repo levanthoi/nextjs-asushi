@@ -1,0 +1,28 @@
+p {
+  boxsizing: "border-box";
+  margin: "0px 0px 23px";
+  padding: 0;
+  border: 0;
+  fontsize: 18;
+  outline: 0;
+  verticalalign: "baseline";
+  lineheight: "1.25";
+  color: "rgb(65, 39, 24)";
+  textalign: "justify";
+  fontfamily: "Arial";
+  backgroundcolor: "rgb(247, 238, 229)";
+}
+
+img {
+  box-sizing: "border-box";
+  margin: "0px 0px 35px";
+  padding: 0;
+  border: "none";
+  vertical-align: "middle";
+  max-width: "100%";
+  height: "auto";
+  font-family: "Arial";
+  font-size: 14;
+  line-height: "22.8px";
+  background-color: "rgb(247, 238, 229)";
+}

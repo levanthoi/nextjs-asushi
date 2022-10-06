@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "url": "khai-vi",
+      "name": "Khai vị",
+      "nameJapan": "アペタイザー",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/khai-vi03.png"
+    },
+    {
+      "id": 2,
+      "url": "mon-nuong",
+      "name": "Món nướng",
+      "nameJapan": "焼き",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/mon-nuong03.png"
+    },
+    {
+      "id": 3,
+      "url": "sashi",
+      "name": "Sashimi, sushi",
+      "nameJapan": " 刺身 , 寿司",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/sashimi03.png"
+    },
+    {
+      "id": 4,
+      "url": "mon-chien",
+      "name": "Món chiên",
+      "nameJapan": "揚げ",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/mon-chien03.png"
+    },
+    {
+      "id": 5,
+      "url": "com-chao",
+      "name": "Cơm, cháo",
+      "nameJapan": "米, ポリッジ",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/com-chao03.png"
+    },
+    {
+      "id": 6,
+      "url": "mon-mi",
+      "name": "Món mì",
+      "nameJapan": "麺類",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/mon-mi03.png"
+    },
+    {
+      "id": 7,
+      "url": "teppanyaki",
+      "name": "Teppanyaki",
+      "nameJapan": "鉄板焼き",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/teppa03.png"
+    },
+    {
+      "id": 8,
+      "url": "mon-om",
+      "name": "Món om",
+      "nameJapan": "煮る",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/mon-om03.png"
+    },
+    {
+      "id": 9,
+      "url": "mon-lau",
+      "name": "Món lẩu",
+      "nameJapan": " 鍋",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/mon-lau03.png"
+    },
+    {
+      "id": 10,
+      "url": "mon-dac-biet",
+      "name": "Món đặc biệt",
+      "nameJapan": "?",
+      "img": "http://w3ni385.nanoweb.com.vn/mediacenter/media/images/363/category/ava/mon-dac-biet03.png"
+    }
+  ]
