@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+  .sc-account-box,
+  .full-inmobile {
+    width: 100%;
+  }
+  .sc-checkout .sc-userinfo {
+    display: block;
+  }
+
+  .sc-checkout .sc-account-box {
+    border-bottom: 1px solid #ebebeb;
+    padding: 0px 0px 15px 0px;
+  }
+
+  .btn-group-sm > .btn,
+  .btn-sm {
+    margin-bottom: 10px;
+  }
+  .sc-checkout .sc-title {
+    font-size: 17px;
+    margin-top: 25px;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+  }
+  .btn-group-sm > .btn,
+  .btn-sm {
+    margin-right: 5px;
+  }
+}

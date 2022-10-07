@@ -1,11 +1,11 @@
 import React from "react";
 
-const CardChild = ({ children, id, images }) => {
+const CardChild = ({ children, boxClass, id, images }) => {
   return (
     <div
-      className={`ashahi ashahi${id}`}
+      className={`ashahi ${boxClass}`}
       style={
-        images.length === 1 && id % 2 === 0
+        images.length === 1 && (boxClass == "ashahi2" || boxClass == "ashahi4")
           ? {
               background: `url(${images[0]}) no-repeat center`,
             }
@@ -13,7 +13,7 @@ const CardChild = ({ children, id, images }) => {
       }
     >
       <div className="container">
-        <div className={`content-ashahi content-ashahi${id} clearfix`}>
+        <div className={`content-ashahi content-${boxClass} clearfix`}>
           {children}
         </div>
       </div>

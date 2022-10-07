@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 const CardSlider2 = (props) => {
+  console.log("ss", props.class1);
   const sliderRef = useRef();
   const settings = {
     dots: false,
@@ -20,7 +21,7 @@ const CardSlider2 = (props) => {
     sliderRef.current.slickPrev();
   };
   return (
-    <div className={`ashahi ashahi51`}>
+    <div className={`ashahi ${props.class1}`}>
       <div id="owl-demo" className="owl-carousel owl-theme">
         <div className="owl-item">
           <Slider {...settings} ref={sliderRef}>

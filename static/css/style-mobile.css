@@ -240,7 +240,7 @@ li {
   * -----------------------------------------------------------------------------
   */
 .header-top {
-  background: url(img/bg_header_top.png) no-repeat;
+  background: url(/static/images/bg_header_top.png) no-repeat;
   background-size: cover;
   height: 59px;
   border-bottom: 2px solid #d8ccbf;
@@ -345,13 +345,15 @@ li {
   display: block;
   width: 120px;
   height: 120px;
-  left: -20px;
-  top: 5px;
-  background: url(img/hoa_left.png) no-repeat;
+  /* left: -20px;
+  top: 5px; */
+  left: -57px;
+  top: -19px;
+  background: url(/static/images/hoa_left.png) no-repeat;
 }
 
 .header-top-content .flower .icon-flower-right:before {
-  background: url(img/hoa_right.png) no-repeat;
+  background: url(/static/images/hoa_right.png) no-repeat;
   right: -250px;
   top: 10px;
   left: inherit;
@@ -427,7 +429,7 @@ li {
   height: 50px;
   left: 0px;
   top: 25px;
-  background: url(img/icon_mobile.png) no-repeat 0px -85px;
+  background: url(/static/images/icon_mobile.png) no-repeat 0px -85px;
 }
 
 /*shoppingcart*/
@@ -444,7 +446,7 @@ li {
   height: 80px;
   left: 0px;
   top: 20px;
-  background: url(img/icon_mobile.png) no-repeat -3px -7px;
+  background: url(/static/images/icon_mobile.png) no-repeat -3px -7px;
 }
 
 /******Cart***/
@@ -629,7 +631,7 @@ li {
   bottom: -1px;
   width: 640px;
   height: 76px;
-  background: url(img/bg_slider.png) no-repeat;
+  background: url(/static/images/bg_slider2.png) no-repeat;
   z-index: 0;
   left: 0px;
   right: 0px;
@@ -708,7 +710,7 @@ li {
   width: 40px;
   height: 80px;
   cursor: pointer;
-  background: url(img/a17.png) no-repeat;
+  background: url(/static/images/a17.png) no-repeat;
   overflow: hidden;
 }
 
@@ -901,7 +903,7 @@ li {
   */
 
 .ashahi4 {
-  background: url(img/bg_ashahi4.jpg) no-repeat center;
+  background: url(/static/images/bg_ashahi4.jpg) no-repeat center;
   position: relative;
   background-size: cover;
 }
@@ -913,7 +915,7 @@ li {
   top: 0px;
   width: 640px;
   height: 306px;
-  background: url(img/bg_ashahi42_before.png) no-repeat;
+  background: url(/static/images/bg_ashahi42_before.png) no-repeat;
   z-index: 9;
   margin: auto;
   left: 0px;
@@ -962,7 +964,7 @@ li {
   position: absolute;
   top: 48%;
   left: 20px;
-  background: url(img/a17.png) no-repeat 0px 0px !important;
+  background: url(/static/images/a17.png) no-repeat 0px 0px !important;
   color: rgba(0, 0, 0, 0);
   width: 40px;
   height: 80px;
@@ -974,7 +976,7 @@ li {
   position: absolute;
   top: 48%;
   right: 20px;
-  background: url(img/a17.png) no-repeat -40px 0px !important;
+  background: url(/static/images/a17.png) no-repeat -40px 0px !important;
   color: rgba(0, 0, 0, 0);
   width: 40px;
   height: 80px;
@@ -1031,7 +1033,7 @@ li {
 
 .footer {
   border-top: 2px solid #d8ccbf;
-  background: url(img/bg_footer_bt.png) no-repeat;
+  background: url(/static/images/bg_footer_bt.png) no-repeat;
   background-size: cover;
 }
 
@@ -1099,7 +1101,7 @@ li {
   height: 105px;
   right: 0px;
   top: 20px;
-  background: url(img/icon_mobile.png) no-repeat 4px -226px;
+  background: url(/static/images/icon_mobile.png) no-repeat 4px -226px;
 }
 
 .ftr-content-bottom {
@@ -1127,7 +1129,7 @@ li {
   bottom: 0;
   width: 640px;
   height: 80px;
-  background: url(img/bg_slider2.png) no-repeat;
+  background: url(/static/images/bg_slider2.png) no-repeat;
   z-index: 0;
   left: 0px;
   right: 0px;
@@ -1200,7 +1202,7 @@ li {
 
 .bg-pau {
   height: 2px;
-  background: url(img/line_about_us.png) repeat-x;
+  background: url(/static/images/line_about_us.png) repeat-x;
   content: "";
   display: block;
   position: absolute;
@@ -1250,7 +1252,7 @@ li {
   display: block;
   width: 180px;
   height: 2px;
-  background: url(img/line_about_us.png) repeat-x;
+  background: url(/static/images/line_about_us.png) repeat-x;
   left: 0px;
   right: 0px;
   bottom: -25px;
@@ -1381,7 +1383,7 @@ li {
 }
 
 .menu-product li.active a {
-  background: #543411 url(img/bg_menu_hover.png) no-repeat center;
+  /* background: #543411 url(img/bg_menu_hover.png) no-repeat center; */
   background-size: cover;
   color: #fff;
 }
@@ -1442,7 +1444,7 @@ li {
 
 .bg-bip {
   height: 2px;
-  background: url(img/line_menu1.png) repeat-x;
+  background: url(/static/images/line_menu1.png) repeat-x;
   content: "";
   display: block;
   position: absolute;
@@ -1535,7 +1537,7 @@ li {
 .increase {
   width: 60px;
   height: 60px;
-  background: url(img/icon_mobile.png) no-repeat;
+  background: url(/static/images/icon_mobile.png) no-repeat;
   display: block;
   float: left;
 }
@@ -1576,7 +1578,7 @@ li {
 .product-page .last {
   width: 65px;
   height: 65px;
-  background: url(img/icon_mobile.png) no-repeat;
+  background: url(/static/images/icon_mobile.png) no-repeat;
   float: left;
 }
 
@@ -1687,7 +1689,7 @@ li {
 }
 
 .menu-pay li.active a {
-  background: #543411 url(img/bg_tt.png) no-repeat center;
+  /* background: #543411 url(img/bg_tt.png) no-repeat center; */
   background-size: cover;
   color: #fff;
 }
@@ -1743,7 +1745,7 @@ li {
   position: absolute;
   bottom: -20px;
   height: 2px;
-  background: url(img/line_about_us.png) repeat;
+  background: url(/static/images/line_about_us.png) repeat;
   left: 0px;
   right: 0px;
   margin: auto;
@@ -1913,7 +1915,7 @@ li {
   position: absolute;
   bottom: -85px;
   height: 2px;
-  background: url(img/line_about_us.png) repeat;
+  background: url(/static/images/line_about_us.png) repeat;
   left: 0px;
   right: 0px;
   margin: auto;
@@ -2422,7 +2424,7 @@ li {
 }
 
 .icon-news {
-  background: url(img/icon_promotion.png) no-repeat;
+  background: url(/static/images/icon_promotion.png) no-repeat;
   position: absolute;
   width: 80px;
   height: 90px;
@@ -2442,7 +2444,7 @@ li {
   height: 25px;
   left: 0px;
   top: -5px;
-  background: url(img/icon_promotion.png) no-repeat 3px -95px;
+  background: url(/static/images/icon_promotion.png) no-repeat 3px -95px;
 }
 
 .ms-thumb h4 {
@@ -2480,7 +2482,7 @@ li {
   position: absolute;
   top: 20%;
   left: -20px;
-  background: url(img/icon_mobile.png) no-repeat -15px -670px !important;
+  background: url(/static/images/icon_mobile.png) no-repeat -15px -670px !important;
   color: rgba(0, 0, 0, 0);
   width: 32px;
   height: 52px;
@@ -2491,7 +2493,7 @@ li {
   position: absolute;
   top: 20%;
   right: -20px;
-  background: url(img/icon_mobile.png) no-repeat -15px -745px !important;
+  background: url(/static/images/icon_mobile.png) no-repeat -15px -745px !important;
   color: rgba(0, 0, 0, 0);
   width: 32px;
   height: 52px;
@@ -2526,7 +2528,11 @@ li {
  *   13.0 Responsive
  * -----------------------------------------------------------------------------
  */
-@media (min-width: 640px) {
+@media (max-width: 1024px) {
+  #slider,
+  .banner-page {
+    display: none;
+  }
   /*    .container {
              width: 100%;
              padding: 0px 20px;
@@ -2811,12 +2817,12 @@ li {
   }
 
   .ashahi51 .owl-theme .owl-controls .owl-buttons div.owl-prev {
-    background: url(img/a17_m.png) no-repeat -26px -45px !important;
+    /* background: url(img/a17_m.png) no-repeat -26px -45px !important; */
     left: 0px;
   }
 
   .ashahi51 .owl-theme .owl-controls .owl-buttons div.owl-next {
-    background: url(img/a17_m.png) no-repeat -58px -45px !important;
+    /* background: url(img/a17_m.png) no-repeat -58px -45px !important; */
     right: 0px;
   }
 

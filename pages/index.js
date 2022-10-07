@@ -17,9 +17,11 @@ const Home = () => {
       <Head>
         <title>Trang chủ</title>
       </Head>
-      {DataCataLog.map((cataLog) => {
-        return <BoxHome key={cataLog.id} cataLog={cataLog} />;
-      })}
+      <main id="main" className="main clearfix">
+        {DataCataLog.map((cataLog) => {
+          return <BoxHome key={cataLog.id} cataLog={cataLog} />;
+        })}
+      </main>
     </DefaultLayout>
   );
 };

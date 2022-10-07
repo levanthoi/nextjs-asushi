@@ -251,7 +251,7 @@ li {
    * -----------------------------------------------------------------------------
    */
 .header-top {
-  background: url(img/bg_header_top.png) no-repeat;
+  background: url(/static/images/bg_header_top.png) no-repeat;
   background-size: cover;
   height: 40px;
   border-bottom: 2px solid #d8ccbf;
@@ -324,11 +324,11 @@ li {
   height: 150px;
   left: -140px;
   top: 5px;
-  background: url(img/hoa_left.png) no-repeat;
+  background: url(/static/images/hoa_left.png) no-repeat;
 }
 
 .header-center .flower .icon-flower-right:before {
-  background: url(img/hoa_right.png) no-repeat;
+  background: url(/static/images/hoa_right.png) no-repeat;
   right: -380px;
   top: -22px;
   left: inherit;
@@ -393,7 +393,7 @@ li {
   height: 38px;
   left: -50px;
   top: 0px;
-  background: url(img/icon.png) no-repeat -8px -12px;
+  background: url(/static/images/icon.png) no-repeat -8px -12px;
 }
 
 .hotline-content .text-content {
@@ -458,7 +458,7 @@ li {
   height: 38px;
   left: -45px;
   top: 5px;
-  background: url(img/icon.png) no-repeat -8px -63px;
+  background: url(/static/images/icon.png) no-repeat -8px -63px;
 }
 
 .shoppingcart-content .text-content {
@@ -659,12 +659,12 @@ li {
   height: 48px;
   right: 15px;
   top: 174px;
-  background: url(img/icon.png) no-repeat -10px -116px;
+  background: url(/static/images/icon.png) no-repeat -10px -116px;
   z-index: 9999;
 }
 
 .header-bottom-facebook a:hover .icon-facebook:before {
-  background: url(img/icon.png) no-repeat -79px -116px;
+  background: url(/static/images/icon.png) no-repeat -79px -116px;
 }
 
 #cssmenu > ul > li:first-child > a {
@@ -687,7 +687,7 @@ li {
   bottom: 0;
   width: 1366px;
   height: 70px;
-  background: url(img/bg_slider2.png) no-repeat;
+  background: url(/static/images/bg_slider2.png) no-repeat;
   z-index: 0;
   left: 0px;
   right: 0px;
@@ -716,6 +716,49 @@ li {
 #slider .title-slider p.slides-p1 {
   font-size: 93px;
 }
+
+/* 
+==================
+*/
+.jssora05l,
+.jssora05r {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.slider1_container {
+  height: 21rem;
+  margin: 0px auto 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.4s;
+  /* display: flex !important; */
+}
+
+.slider1_container a {
+  width: 100%;
+}
+
+.slide {
+  width: 100%;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.active-anim {
+  opacity: 1;
+}
+
+/* 
+==================
+*/
 
 #slider .content-slider {
   position: absolute;
@@ -761,16 +804,20 @@ li {
   width: 40px;
   height: 80px;
   cursor: pointer;
-  background: url(img/a17.png) no-repeat;
+  background: url(/static/images/a17.png) no-repeat;
   overflow: hidden;
 }
 
 .jssora05l {
   background-position: 4px 10px;
+  top: 290px;
+  left: 25px;
 }
 
 .jssora05r {
   background-position: -40px 10px;
+  top: 290px;
+  right: 25px;
 }
 
 .jssora05l:hover {
@@ -919,7 +966,7 @@ li {
    */
 
 .ashahi2 {
-  background: url(img/bg_vct.jpg) no-repeat center;
+  background: url(/static/images/bg_vct.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -946,7 +993,7 @@ li {
    */
 
 .ashahi4 {
-  background: url(img/bg_ashahi4.jpg) no-repeat center;
+  background: url(/static/images/bg_ashahi4.jpg) no-repeat center;
   position: relative;
 }
 
@@ -957,7 +1004,7 @@ li {
   top: 0px;
   width: 1366px;
   height: 651px;
-  background: url(img/bg_ashahi41_before.png) no-repeat;
+  background: url(/static/images/bg_ashahi41_before.png) no-repeat;
   z-index: 9;
   margin: auto;
   left: 0px;
@@ -1001,7 +1048,7 @@ li {
   position: absolute;
   top: 48%;
   left: 20px;
-  background: url(img/a17.png) no-repeat 0px 0px !important;
+  background: url(/static/images/a17.png) no-repeat 0px 0px !important;
   color: rgba(0, 0, 0, 0);
   width: 40px;
   height: 80px;
@@ -1012,61 +1059,13 @@ li {
   position: absolute;
   top: 48%;
   right: 20px;
-  background: url(img/a17.png) no-repeat -40px 0px !important;
+  background: url(/static/images/a17.png) no-repeat -40px 0px !important;
   color: rgba(0, 0, 0, 0);
   width: 40px;
   height: 80px;
   border-radius: 0px;
   opacity: 1;
 }
-/*
-  .box-img-ashahi {
-      margin: 45px 0px 0px 0px;
-  }
-  
-  .row-ashahi {
-      margin: 0 -6px;
-  }
-  
-  .col-ashahi {
-      float: left;
-  }
-  
-  .col-ashahi5 {
-      width: 50%;
-      padding: 0 6px;
-      margin-bottom: 12px;
-      max-height: 381px;
-      overflow: hidden;
-      position: relative;
-  }*/
-
-/*.col-ashahi5:hover .hover-col-ashahi5 {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
-  }*/
-
-/*.hover-col-ashahi5 {
-      position: absolute;
-      top: 45%;
-      left: 40%;
-      color: #000;
-      background: rgba(255, 254, 254, .8);
-      padding: 5px 15px;
-      opacity: 0;
-      -webkit-transition: opacity 0.35s;
-      transition: opacity 0.35s;
-      -webkit-backface-visibility: hidden;
-  }*/
-
-/*.hover-col-ashahi5 p {
-      color: #543411;
-  }*/
-
-/*.col-ashahi5 img:hover {
-      opacity: 0.8;
-  }*/
 
 /**
    *   3.6 ashahi6
@@ -1092,7 +1091,7 @@ li {
 
 .footer {
   border-top: 2px solid #d8ccbf;
-  background: url(img/bg_footer_bt.png) no-repeat;
+  background: url(/static/images/bg_footer_bt.png) no-repeat;
   background-size: cover;
 }
 
@@ -1156,16 +1155,6 @@ li {
   display: block;
 }
 
-/*.footer-top-scroll .icon-scroll:before {
-      content: '';
-      position: fixed;
-      display: block;
-      width: 48px;
-      height: 48px;
-      right: 50px;
-      bottom: 60px;
-      background: url(img/icon.png) no-repeat -144px -12px;
-  }*/
 .footer-top-scroll .icon-scroll:before {
   content: "";
   position: fixed;
@@ -1174,7 +1163,7 @@ li {
   height: 48px;
   right: 15px;
   bottom: 57px;
-  background: url(img/icon.png) no-repeat -144px -12px;
+  background: url(/static/images/icon.png) no-repeat -144px -12px;
   z-index: 9999;
 }
 
@@ -1200,7 +1189,7 @@ li {
   bottom: 0;
   width: 1366px;
   height: 70px;
-  background: url(img/bg_slider2.png) no-repeat;
+  background: url(/static/images/bg_slider2.png) no-repeat;
   z-index: 0;
   left: 0px;
   right: 0px;
@@ -1334,7 +1323,7 @@ li {
 
 .bg-pau {
   height: 2px;
-  background: url(img/line_about_us.png) repeat-x;
+  background: url(/static/images/line_about_us.png) repeat-x;
   content: "";
   display: block;
   position: absolute;
@@ -1372,7 +1361,7 @@ li {
   display: block;
   width: 180px;
   height: 2px;
-  background: url(img/line_about_us.png) repeat-x;
+  background: url(/static/images/line_about_us.png) repeat-x;
   left: 0px;
   right: 0px;
   bottom: -31px;
@@ -1517,11 +1506,6 @@ li {
   font-family: "SVN-Sunday";
 }
 
-/*.menu-product li.active a {
-      background: #543411 url(img/bg_menu_hover.png) no-repeat center;
-      background-size: cover;
-      color: #fff;
-  }*/
 .menu-product li.active a {
   color: #8c6239;
 }
@@ -1596,7 +1580,7 @@ li {
 
 .bg-bip {
   height: 2px;
-  background: url(img/line_menu1.png) repeat-x;
+  background: url(/static/images/line_menu1.png) repeat-x;
   content: "";
   display: block;
   position: absolute;
@@ -1713,7 +1697,7 @@ li {
 .increase {
   width: 34px;
   height: 34px;
-  background: url(img/icon.png) no-repeat;
+  background: url(/static/images/icon.png) no-repeat;
   display: block;
   float: left;
 }
@@ -1851,7 +1835,7 @@ li {
 }
 
 .menu-pay li.active a {
-  background: #543411 url(img/bg_tt.png) no-repeat center;
+  /* background: #543411 url(img/bg_tt.png) no-repeat center; */
   background-size: cover;
   color: #fff;
 }
@@ -1882,7 +1866,7 @@ li {
   position: absolute;
   bottom: -38px;
   height: 2px;
-  background: url(img/line_about_us.png) repeat;
+  background: url(/static/images/line_about_us.png) repeat;
   left: 0px;
   right: 0px;
   margin: auto;
@@ -2082,7 +2066,7 @@ li {
   position: absolute;
   bottom: -65px;
   height: 2px;
-  background: url(img/line_about_us.png) repeat;
+  background: url(/static/images/line_about_us.png) repeat;
   left: 0px;
   right: 0px;
   margin: auto;
@@ -2620,7 +2604,7 @@ li {
 }
 
 .icon-news {
-  background: url(img/icon_promotion.png) no-repeat;
+  background: url(/static/images/icon_promotion.png) no-repeat;
   position: absolute;
   width: 80px;
   height: 90px;
@@ -2640,7 +2624,7 @@ li {
   height: 25px;
   left: 0px;
   top: -5px;
-  background: url(img/icon_promotion.png) no-repeat 3px -95px;
+  background: url(/static/images/icon_promotion.png) no-repeat 3px -95px;
 }
 .ms-thumb h4 {
   color: #b10c0c;

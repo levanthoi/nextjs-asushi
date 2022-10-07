@@ -10,6 +10,7 @@ const Payment = () => {
         <title>Thanh toán</title>
         <link rel="stylesheet" href="../static/css/product.css" />
         <link rel="stylesheet" href="../static/css/main.min.css" />
+        <link rel="stylesheet" href="../static/css/payment.css" />
       </Head>
       <div className="content-wrap">
         <div className="payment-step1-page">
