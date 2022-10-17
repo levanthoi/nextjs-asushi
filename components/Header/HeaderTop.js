@@ -6,8 +6,8 @@ const HeaderTop = () => {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="../../static/css/about.css" />
-        <link rel="stylesheet" href="../../static/css/test.css" />
+        {/* <link rel="stylesheet" href="../../static/css/about.css" />
+        <link rel="stylesheet" href="../../static/css/test.css" /> */}
       </Head>
       <div className="header-top" style={{}}>
         <h1 style={{ textIndent: "-9999px", height: "0px", margin: "0px" }}>

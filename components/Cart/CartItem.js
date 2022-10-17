@@ -14,7 +14,7 @@ const CartItem = (props) => {
   const dispatch = useDispatch();
   const { id, name, img, price, quantity, nameJapan } = props.item;
   const [tempPrice, setTempPrice] = useState(price);
-  const categoryUrl = shop.getUrl(id);
+  // const categoryUrl = shop.getUrl(id);
   useEffect(() => {
     setTempPrice(quantity * price);
   }, [quantity]);
@@ -30,14 +30,23 @@ const CartItem = (props) => {
           <Link
             className="product-image"
             title={name}
-            href={categoryUrl && `/product/${categoryUrl}/food-name-${id}`}
+            href={{
+              pathname: "/product/detail",
+              query: { food: id },
+            }}
           >
             <img width={75} height="auto" src={img} />
           </Link>
         </div>
         <div style={{ width: "31%" }} className="a-left">
           <h2 className="product-name">
-            <Link href={`/product/${categoryUrl}/food-name-${id}`} title={name}>
+            <Link
+              href={{
+                pathname: "/product/detail",
+                query: { food: id },
+              }}
+              title={name}
+            >
               {`${name} - ${nameJapan}`}
             </Link>
           </h2>
@@ -74,7 +83,15 @@ const CartItem = (props) => {
           <button
             className="increase items-count btn-plus"
             type="button"
-            onClick={() => dispatch(increaseCart(props.item))}
+            onClick={
+              () =>
+                // console.log("increaseCart", increaseCart())
+                dispatch(increaseCart(props.item))
+              // dispatch({
+              //   type: increaseCart.type,
+              //   payload: increaseCart.payload,
+              // })
+            }
           >
             +
           </button>
@@ -109,13 +126,18 @@ export const CartItemMobile = (props) => {
   const dispatch = useDispatch();
   const { id, name, img, price, quantity, nameJapan } = props.item;
   const [tempPrice, setTempPrice] = useState(price);
-  const categoryUrl = shop.getUrl(id);
+  // const categoryUrl = shop.getUrl(id);
   useEffect(() => {
     setTempPrice(quantity * price);
   }, [quantity]);
   return (
     <li className={`item productid-${id}`}>
-      <Link href="/product">
+      <Link
+        href={{
+          pathname: "/product/detail",
+          query: { food: id },
+        }}
+      >
         <a className="product-image" title={`${name} - ${nameJapan}`}>
           <img
             width={75}
@@ -164,11 +186,12 @@ export const CartItemMobile = (props) => {
               id="qtyMobile"
               name="qty"
               value={quantity}
+              onChange={() => console.log("a")}
             />
             <button
               className="increase items-count btn-plus"
               type="button"
-              onClick={() => dispatch(increaseCart(props.item))}
+              // onClick={() => dispatch(increaseCart.type)}
             >
               +
             </button>

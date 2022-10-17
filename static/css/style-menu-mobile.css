@@ -89,7 +89,7 @@
 }
 
 #cssmenu > ul > li.has-sub > a::after {
-  display: none;
+  display: block;
   position: absolute;
   top: 21px;
   right: 10px;
@@ -218,7 +218,7 @@
 
 #cssmenu ul {
   width: 100%;
-  display: none;
+  display: block;
   z-index: 1;
 }
 
@@ -290,7 +290,7 @@
 
 #cssmenu > ul > li.has-sub > a::after,
 #cssmenu ul ul li.has-sub > a::after {
-  display: none;
+  display: block;
 }
 
 #menu-line {
@@ -369,3 +369,5 @@
 #cssmenu .submenu-button.submenu-opened:after {
   display: none;
 }
+
+/* #cssmenu .has-sub */

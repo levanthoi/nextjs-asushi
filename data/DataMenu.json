@@ -25,7 +25,7 @@
         "id": 20,
         "name": "Khai vị",
         "nameJapan": "アペタイザー",
-        "url": "/khai-vi-pc,5699",
+        "url": "khai-vi",
         "children": null,
         "parentId": 3
       },
@@ -33,7 +33,7 @@
         "id": 21,
         "name": "Món nướng",
         "nameJapan": "焼き",
-        "url": "/mon-nuong-pc,5700",
+        "url": "mon-nuong",
         "children": null,
         "parentId": 3
       },
@@ -41,7 +41,7 @@
         "id": 22,
         "name": "Sashimi, sushi",
         "nameJapan": " 刺身 , 寿司",
-        "url": "/sashimi-sushi-pc,5703",
+        "url": "sashi",
         "children": null,
         "parentId": 3
       },
@@ -49,7 +49,7 @@
         "id": 23,
         "name": "Món chiên",
         "nameJapan": "揚げ",
-        "url": "/mon-chien-pc,5723",
+        "url": "mon-chien",
         "children": null,
         "parentId": 3
       },
@@ -57,7 +57,7 @@
         "id": 24,
         "name": "Cơm, cháo",
         "nameJapan": "米, ポリッジ",
-        "url": "/com-chao-pc,5724",
+        "url": "com-chao",
         "children": null,
         "parentId": 3
       },
@@ -65,7 +65,7 @@
         "id": 25,
         "name": "Món mì",
         "nameJapan": "麺類",
-        "url": "/mon-mi-pc,5729",
+        "url": "mon-mi",
         "children": null,
         "parentId": 3
       },
@@ -73,7 +73,7 @@
         "id": 26,
         "name": "Teppanyaki",
         "nameJapan": "鉄板焼き",
-        "url": "/teppanyaki-pc,5725",
+        "url": "teppanyaki",
         "children": null,
         "parentId": 3
       },
@@ -81,7 +81,7 @@
         "id": 27,
         "name": "Món om",
         "nameJapan": "煮る",
-        "url": "/mon-om-pc,5726",
+        "url": "mon-om",
         "children": null,
         "parentId": 3
       },
@@ -89,7 +89,7 @@
         "id": 28,
         "name": "Món lẩu",
         "nameJapan": "鍋",
-        "url": "/mon-lau-pc,5727",
+        "url": "mon-lau",
         "children": null,
         "parentId": 3
       },
@@ -97,7 +97,7 @@
         "id": 29,
         "name": "Món đặc biệt",
         "nameJapan": "?",
-        "url": "/mon-dac-biet-pc,5728",
+        "url": "mon-dac-biet",
         "children": null,
         "parentId": 3
       }

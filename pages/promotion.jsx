@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import DefaultLayout from "../layout/DefaultLayout";
 import Banner from "/components/Banner/Banner";
 import PageAbout from "/components/PageAbout";
-import { DataPromotion } from "/data/data";
-
+import { useSelector } from "react-redux";
 
 
 const Promotion = () => {
@@ -12,6 +11,9 @@ const Promotion = () => {
   const handleClick = (id) => {
     setActive(id);
   }
+
+  //get data promotion
+  const DataPromotion = useSelector(state => state.promotion.value);
   return (
     <DefaultLayout>
       <Head>

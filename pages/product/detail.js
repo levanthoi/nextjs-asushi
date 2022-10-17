@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Banner from "../../components/Banner/Banner";
 import PageAbout from "../../components/PageAbout";
 import MenuProd from "../../components/Product/MenuProd";
-import { DataProduct } from "../../data/data";
+import { DataProduct, DataVoucher } from "../../data/data";
 import shop from "../../helper/shop";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/reducers/cartSlice";
@@ -17,7 +17,9 @@ const ProductDetail = () => {
   const [productDetail, setProductDetail] = useState([]);
   const [quantity, setQuantity] = useState(1);
   useEffect(() => {
-    const productDetail = DataProduct.find((curEle) => curEle.id === food - 0);
+    const productDetail =
+      DataProduct.find((curEle) => curEle.id === food - 0) ||
+      DataVoucher.find((curEle) => curEle.id === food - 0);
     setProductDetail(productDetail);
   }, [food]);
 
@@ -86,7 +88,7 @@ const ProductDetail = () => {
                       >
                         {productDetail && (
                           <div className="row">
-                            <div className="col-detail col-sm-6 col-xs-12">
+                            <div className="col-detail col-lg-6 col-xs-12">
                               <div className="box-img box-img-product-detail">
                                 <a
                                   href="!#"
@@ -99,7 +101,7 @@ const ProductDetail = () => {
                                 </a>
                               </div>
                             </div>
-                            <div className="col-detail col-sm-6 col-xs-12">
+                            <div className="col-detail col-lg-6 col-xs-12">
                               <div className="box-info-product-detail">
                                 <h1>
                                   {productDetail.name} <br />

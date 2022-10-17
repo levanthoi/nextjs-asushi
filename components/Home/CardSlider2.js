@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 const CardSlider2 = (props) => {
-  console.log("ss", props.class1);
   const sliderRef = useRef();
   const settings = {
     dots: false,

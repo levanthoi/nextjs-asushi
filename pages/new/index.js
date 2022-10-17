@@ -4,9 +4,10 @@ import DefaultLayout from "../../layout/DefaultLayout";
 import Banner from "/components/Banner/Banner";
 import CardNew from "/components/New/CardNew";
 import PageAbout from "/components/PageAbout";
-import { DataNews } from "/data/data";
+import { useSelector } from "reacr-redux";
 
 const New = () => {
+  const DataNews = useSelector((state) => state.news.value);
   return (
     <DefaultLayout>
       <Head>

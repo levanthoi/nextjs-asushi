@@ -479,6 +479,10 @@ li {
   display: block;
 }
 
+.shoppingcart:hover .cart .box-cart {
+  display: block;
+}
+
 .header-box-cart {
   height: 57px;
   border-bottom: 1px solid #cdc8c2;
@@ -2530,7 +2534,15 @@ li {
  */
 @media (max-width: 1024px) {
   #slider,
-  .banner-page {
+  .banner-page,
+  .menu-product,
+  .ashahi5 {
+    display: none;
+  }
+  .col-xs-6 {
+    width: 100%;
+  }
+  .menu-product-content .item-product2 {
     display: none;
   }
   /*    .container {

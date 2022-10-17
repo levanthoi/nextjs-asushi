@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { DataMenu } from "/data/data";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const HeaderBottom = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -16,13 +16,9 @@ const HeaderBottom = () => {
     if (width >= 1025) setShowMenu(false);
     else if (width < 1025) setShowMenu(true);
   };
-  // useEffect(() => {
-  //   if (width >= 1025) setShowMenu(false);
-  //   else if (width < 1025) {
-  //     setShowMenu(true);
-  //     setShowMenuChild(false);
-  //   }
-  // }, [width]);
+
+  //get data menu
+  const DataMenu = useSelector((state) => state.menu.value);
   return (
     <div className="header-bottom">
       <div className="container">

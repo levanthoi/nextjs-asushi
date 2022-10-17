@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Link from 'next/link';
+import Link from "next/link";
 import images from "/static/images/images";
 import Banner from "../Banner/Banner";
 import PageAbout from "../PageAbout";
@@ -27,14 +27,14 @@ const CardProduct = () => {
   }, [productId]);
 
   // categories is your top level categories object and data is the children you posted
-// const tree = DataCategory.map(category => {
-//   return { 
-//     ...category,
-//     children: DataProduct.filter(child => child.categoryId === category.id)
-//   }
-// })
-// console.log("DataProduct", DataProduct);
-// console.log("tree", tree);
+  // const tree = DataCategory.map(category => {
+  //   return {
+  //     ...category,
+  //     children: DataProduct.filter(child => child.categoryId === category.id)
+  //   }
+  // })
+  // console.log("DataProduct", DataProduct);
+  // console.log("tree", tree);
 
   const handleSubmit = (id, quantity, name, nameJapan, price, img) => {
     // e.preventDefault();
@@ -44,25 +44,27 @@ const CardProduct = () => {
       name: name,
       nameJapan: nameJapan,
       price: price,
-      quantity: quantity
-    }
+      quantity: quantity,
+    };
     dispatch(addToCart(cartItem));
-  }
+  };
 
   const updateQuantity = (id, e, type) => {
     const item = listProduct.filter((item) => item.id === id)[0];
     console.log("item", item);
     const updateCart = listProduct.map((curElem) => {
       if (curElem.id === id) {
-        switch(type){
-          case 'increase':
+        switch (type) {
+          case "increase":
             return { ...curElem, quantity: curElem.quantity + 1 };
             break;
-          case 'decrease':
-            if(curElem.quantity>1) return { ...curElem, quantity: curElem.quantity - 1 };
+          case "decrease":
+            if (curElem.quantity > 1)
+              return { ...curElem, quantity: curElem.quantity - 1 };
             break;
-          case 'change':
-            if(curElem.quantity>=1) return {...curElem, quantity: e.target.value };
+          case "change":
+            if (curElem.quantity >= 1)
+              return { ...curElem, quantity: e.target.value };
             break;
         }
       }
@@ -110,7 +112,6 @@ const CardProduct = () => {
                               <i className="bg-bip bg-bip-top"> </i>
                               {category.name} <br />
                               <span className="language-japan">
-                                {" "}
                                 {category.nameJapan}
                               </span>
                               <i className="bg-bip bg-bip-bottom"> </i>
@@ -167,7 +168,7 @@ const CardProduct = () => {
                                         <div
                                           className="reduction"
                                           onClick={(e) =>
-                                            updateQuantity(id,e, "decrease")
+                                            updateQuantity(id, e, "decrease")
                                           }
                                         />
                                         <input
@@ -186,13 +187,22 @@ const CardProduct = () => {
                                         <div
                                           className="increase"
                                           onClick={(e) =>
-                                            updateQuantity(id,e,  "increase")
+                                            updateQuantity(id, e, "increase")
                                           }
                                         />
                                       </div>
                                       <div className="box-add-cart">
                                         <a
-                                          onClick={() => handleSubmit(id, quantity, name, nameJapan, price, img)}
+                                          onClick={() =>
+                                            handleSubmit(
+                                              id,
+                                              quantity,
+                                              name,
+                                              nameJapan,
+                                              price,
+                                              img
+                                            )
+                                          }
                                           className="btn_add_food"
                                           name={5556}
                                           title="chọn món"

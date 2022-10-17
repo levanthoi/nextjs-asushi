@@ -1,10 +1,10 @@
 import Head from "next/head";
 import React from "react";
 import DefaultLayout from "../../layout/DefaultLayout";
-import Banner from "/components/Banner/Banner";
-import PageAbout from "/components/PageAbout";
-import CardVoucher from "/components/Voucher/CardVoucher";
-import { DataVoucher } from "/data/data";
+import Banner from "../../components/Banner/Banner";
+import PageAbout from "../../components/PageAbout";
+import CardVoucher from "../../components/Voucher/CardVoucher";
+import { DataVoucher } from "../../data/data";
 
 const Voucher = () => {
   return (

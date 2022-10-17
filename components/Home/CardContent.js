@@ -7,7 +7,6 @@ const CardContent = (props) => {
   const { id, title, content, desc, images } = props.item;
   let boxClass = "";
   const changeId = () => {
-    console.log(id);
     if (id === 2) {
       boxClass += "ashahi1 ashahi2";
     } else if (id === 3) {
@@ -28,8 +27,6 @@ const CardContent = (props) => {
   changeId();
   let box1 = boxClass.slice(0, 7);
   let box2 = boxClass.slice(8);
-  console.log("box1", box1, "box2", box2);
-  // console.log("id", props.item.id);
   return (
     <>
       <CardChild {...props.item} boxClass={box1}>

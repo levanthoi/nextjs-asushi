@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import shop from "/helper/shop";
-// import { useDispatch } from "react-redux";
-// import { addToCart} from "/redux/reducers/cartSlice";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../redux/reducers/cartSlice";
 
 const CardVoucher = (props) => {
   const { id, name, nameJapan, price, img } = props.item;
   const [quantity, setQuantity] = useState(1);
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("quantity", quantity);
     const cartItem = {
       id: id,
       img: img,
@@ -20,21 +19,34 @@ const CardVoucher = (props) => {
       nameJapan: nameJapan,
       quantity: quantity,
     };
-    // dispatch(addToCart(cartItem));
+    dispatch(addToCart(cartItem));
   };
 
   return (
     <div className="col-voucher col-sm-6 col-xs-6">
       <div className="col-voucher-content">
         <div className="box-img box-img-product-voucher">
-          <Link href={`/voucher/${id}`} title={name}>
+          <Link
+            href={{
+              pathname: "/product/detail",
+              query: { food: id },
+            }}
+            title={name}
+          >
             <img src={img} alt={name} />
           </Link>
         </div>
         <div className="box-info-product-voucher">
           <div className="box-info-product-voucher-title">
             <h3>
-              <Link href={`/voucher/${id}`} title={name}>
+              <Link
+                href={{
+                  pathname: "/product/detail",
+                  query: { food: id },
+                }}
+                // href={`/voucher/${id}`}
+                title={name}
+              >
                 <a>
                   {name} - {shop.formatProductPrice(price)}
                 </a>

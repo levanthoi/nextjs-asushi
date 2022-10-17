@@ -3,7 +3,8 @@ import CardSlider from "../components/Home/CardSlider";
 import CardContent from "../components/Home/CardContent";
 import DefaultLayout from "../layout/DefaultLayout";
 import Head from "next/head";
-import { DataCataLog } from "../data/data";
+import { useSelector } from "react-redux";
+// import { DataCataLog } from "../data/data";
 
 const BoxHome = (props) => {
   const cataLog = props.cataLog;
@@ -12,6 +13,7 @@ const BoxHome = (props) => {
 };
 
 const Home = () => {
+  const DataCataLog = useSelector((state) => state.catalog.value);
   return (
     <DefaultLayout>
       <Head>

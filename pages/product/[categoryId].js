@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import images from "/static/images/images";
 import Banner from "../../components/Banner/Banner";
 import PageAbout from "../../components/PageAbout";
 import MenuProd from "../../components/Product/MenuProd";
-import { DataProduct, DataCategory } from "../../data/data";
 import shop from "../../helper/shop";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../redux/reducers/cartSlice";
 import DefaultLayout from "../../layout/DefaultLayout";
 import Head from "next/head";
 
 const CardProduct = () => {
   const router = useRouter();
-  // console.log("router", router);
   const { categoryId } = router.query;
-  // console.log("categoryId", categoryId);
-  // console.log("pathname", router.pathname);
+  //get data category
+  const DataCategory = useSelector((state) => state.category.value);
+
+  //get data product
+  const DataProduct = useSelector((state) => state.product.value);
+
   const category = DataCategory.filter(
     (category) => categoryId && category.url === categoryId
   )[0];
-  // console.log("category", category);
   const product = DataProduct.filter(
     (product) => category && product.categoryId === category.id
   );
@@ -60,7 +60,7 @@ const CardProduct = () => {
 
   const updateQuantity = (id, e, type) => {
     const item = listProduct.filter((item) => item.id === id)[0];
-    console.log("item", item);
+    // console.log("item", item);
     const updateCart = listProduct.map((curElem) => {
       if (curElem.id === id) {
         switch (type) {

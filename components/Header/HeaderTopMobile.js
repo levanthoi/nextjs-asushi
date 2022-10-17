@@ -6,8 +6,8 @@ const HeaderTopMobile = () => {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="../../static/css/style-menu-mobile.css" />
-        <link rel="stylesheet" href="../../static/css/style-mobile.css" />
+        {/* <link rel="stylesheet" href="../../static/css/style-menu-mobile.css" />
+        <link rel="stylesheet" href="../../static/css/style-mobile.css" /> */}
       </Head>
       <div className="header-top" style={{}}>
         <div className="container">

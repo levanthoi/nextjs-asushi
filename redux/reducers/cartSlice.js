@@ -1,3 +1,8 @@
+import {
+  toastSuccessNotify,
+  toastErrorNotify,
+  toastWarnNotify,
+} from "../../components/toast";
 const { createSlice } = require("@reduxjs/toolkit");
 
 // let items = [];
@@ -18,8 +23,13 @@ const cartSlice = createSlice({
     addToCart: (state, action) => {
       //   Kiểm tra sản phẩm đã có trong giỏ hàng chưa
       const itemInCart = state.find((item) => item.id === action.payload.id);
-      if (itemInCart) itemInCart.quantity += action.payload.quantity;
-      else state.push(action.payload);
+      if (itemInCart) {
+        toastWarnNotify("Sản phẩm đã có trong giỏ hàng");
+        itemInCart.quantity += action.payload.quantity;
+      } else {
+        toastSuccessNotify("Thêm vào giỏ hàng thành công");
+        state.push(action.payload);
+      }
       if (typeof window !== "undefined") {
         localStorage.setItem("cart", JSON.stringify(state));
       }
@@ -28,6 +38,7 @@ const cartSlice = createSlice({
     },
     deleteFromCart: (state, action) => {
       state = state.filter((item) => item.id !== action.payload.id);
+      toastSuccessNotify("Đã xóa thành công");
       if (typeof window !== "undefined") {
         localStorage.setItem("cart", JSON.stringify(state));
       }
@@ -47,15 +58,24 @@ const cartSlice = createSlice({
         localStorage.setItem("cart", JSON.stringify(state));
       }
     },
+    // increaseCart: (state, action) => {},
     increaseCart: (state, action) => {
+      // console.log("action", action);
       const item = state.find((item) => item.id === action.payload.id);
       item.quantity++;
       if (typeof window !== "undefined") {
         localStorage.setItem("cart", JSON.stringify(state));
       }
+      // console.log("inc");
+      return state;
     },
   },
 });
+
+export const cartSelector = (state) => {
+  return state.cart;
+};
+
 export const {
   addToCart,
   deleteFromCart,
